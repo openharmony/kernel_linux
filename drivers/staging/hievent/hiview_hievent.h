@@ -25,7 +25,7 @@ struct hiview_hievent {
 	long long time;
 
 	/* payload linked list */
-	struct hiview_hievent_payload *head;
+	struct hievent_payload *head;
 
 	/* file path needs uploaded */
 	char *file_path[MAX_PATH_NUMBER];
